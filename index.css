@@ -1,0 +1,72 @@
+body {
+	font-family: 'Courier new';
+	font-weight: 100;
+	font-size: 1em;
+}
+
+#terminal {
+	background-color: black;
+	color: #31FC00;
+	position: fixed;
+	height: 100%;
+}
+
+#terminal-content {
+	padding: 20px 0;
+}
+
+#main-view {
+	margin-top: 1.3%;
+}
+
+#main-view .panel {
+	margin: 0 0 10% 0;
+}
+
+#main-view .item {
+	display: block;
+	color: black;
+	margin: 3% 0 0 0;
+}
+
+#main-view .center-item {
+	margin: 3% auto 0 auto;
+	text-align: center;
+}
+
+#main-view .left-item {
+	padding: 0 10px;
+}
+
+#main-view h1 {
+	font-size: 1.65em;
+	font-weight: bold;
+}
+
+#main-view p {
+	font-size: 1.34em;
+}
+
+#main-view strong {
+	font-weight: bold;
+}
+
+#main-view li {
+	font-size: 1.34em;
+	line-height: 2.5;
+	list-style: none;
+}
+
+#main-view .project-item p {
+	margin-bottom: 1%;
+}
+
+#main-view .resume-link {
+	margin: 5% 0;
+}
+
+@media (max-width: 991px) {
+	#terminal {
+		display: none;
+	}
+}
