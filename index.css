@@ -4,6 +4,10 @@ body {
 	font-size: 1em;
 }
 
+.dummy {
+	z-index: -1;
+}
+
 #terminal {
 	background-color: black;
 	color: #31FC00;
@@ -13,6 +17,24 @@ body {
 
 #terminal-content {
 	padding: 20px 0;
+}
+
+#terminal-content .terminal-line {
+	margin: 0;
+	padding: 0;
+	/*line-height: 1;*/
+}
+
+#terminal-content input {
+	cursor: default;
+	background-color: black;
+	color: #31FC00;
+	border: none;
+}
+
+#terminal-content input:focus {
+	border: none;
+	outline: none;
 }
 
 #main-view {
