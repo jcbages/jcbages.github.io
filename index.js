@@ -71,7 +71,7 @@ function handleEnterKey() {
 		if (!input.is(':focus')) return;
 
 		// get command of the input & add it to historic array
-		var command = input.val().trim();
+		var command = input.val().trim().replaceAll('<', '&lt;').replaceAll('>', '&gt;');
 		historicCommands.push('$&nbsp;' + command); // preppend $ sign 'cause its nice :)
 		
 		// clean input
